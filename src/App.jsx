@@ -4,7 +4,7 @@ import './style.css'
 import { OrbitControls } from '@react-three/drei'
 import Cly from './Cly.jsx'
 import { Bloom, EffectComposer } from '@react-three/postprocessing'
-import Footer from './footer.jsx'
+import Footer from './Footer.jsx'
 
 const App = () => {
   return (
