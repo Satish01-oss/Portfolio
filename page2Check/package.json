@@ -1,5 +1,5 @@
 {
-  "name": "react-three-fiber",
+  "name": "page2check",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,18 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@gsap/react": "^2.1.2",
     "@react-three/drei": "^10.7.7",
     "@react-three/fiber": "^9.4.2",
-    "@react-three/postprocessing": "^3.0.4",
-    "@splinetool/react-spline": "^4.1.0",
-    "@studio-freight/lenis": "^1.0.42",
     "@tailwindcss/vite": "^4.1.18",
     "@types/three": "^0.182.0",
-    "gsap": "^3.14.2",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "spline": "^0.0.0",
     "tailwindcss": "^4.1.18",
     "three": "^0.182.0"
   },
@@ -34,6 +28,6 @@
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
     "globals": "^16.5.0",
-    "vite": "^7.3.0"
+    "vite": "^7.2.4"
   }
 }

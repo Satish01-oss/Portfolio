@@ -5,12 +5,12 @@ import { OrbitControls } from '@react-three/drei'
 import Cly from './Cly.jsx'
 import { Bloom, EffectComposer } from '@react-three/postprocessing'
 import Footer from './Footer.jsx'
-
+import Page2 from './page2/Page2.jsx'
 const App = () => {
   return (
-    <div className="relative w-full h-screen bg-black">
+    <div className="relative w-full bg-black">
       {/* Overlay text */}
-      <div className="absolute top-1/10 left-1/2 transform -translate-x-1/2 text-center z-10">
+      <div className="absolute top-[1%] left-1/2 transform -translate-x-1/2 text-center z-10">
         <h1 className="text-4xl md:text-6xl font-bold text-white drop-shadow-lg">
           Welcome to my <span className="text-cyan-400">Portfolio</span>
         </h1>
@@ -18,7 +18,8 @@ const App = () => {
           Exploring 3D creativity with React & Three.js
         </p>
       </div>
-    <Canvas camera={{fov: 35}}>
+    <section className='relative w-full h-screen'>
+      <Canvas camera={{fov: 35}}>
 
       <ambientLight intensity={3} />
       <Cly />
@@ -31,7 +32,9 @@ const App = () => {
   />
       </EffectComposer>
     </Canvas>
-    <Footer />
+      <Footer />
+    </section>
+    <Page2/>
     </div>
   )
 }
