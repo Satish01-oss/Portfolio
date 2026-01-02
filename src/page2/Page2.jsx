@@ -133,7 +133,7 @@ const Page2 = () => {
 
   return (
     <>
-      <section className="intro">
+      <section className="intro font-serif">
         <h1>Every Idea Begins as a single image</h1>
       </section>
 
